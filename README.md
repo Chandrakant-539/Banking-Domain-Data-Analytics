@@ -1,13 +1,26 @@
 # Banking-Domain-Data-Analytics
-A Portuguese banking institution—ran a marketing campaign to convince potential customers to invest in bank term deposit. Information related to direct marketing campaigns of the bank are as follows. The marketing campaigns were based on phone calls. Often, the same customer was contacted more than once through phone, in order to assess if they would want to subscribe to the bank term deposit or not.
+Project Overview
+This project analyzes a Portuguese banking institution’s direct marketing campaign data using Python and data visualization tools. The objective was to determine what factors influence whether a customer subscribes to a term deposit, based on their demographic and campaign response data.
 
-The following questions were answered by a data analysis with Spark
+The marketing campaigns were based on phone calls. Often, the same customer was contacted more than once in order to assess if they would subscribe.
 
-Load data and create Spark data frame
-Give marketing success rate. (No. of people subscribed / total no. of entries) 2a Give marketing failure rate
-Maximum, Mean, and Minimum age of average targeted customer
-Check quality of customers by checking average balance, median balance of customers
-Check if age matters in marketing subscription for deposit
-Check if marital status mattered for subscription to deposit.
-Check if age and marital status together mattered for subscription to deposit scheme
-Do feature engineering for column—age and find right age effect on campaign
+Questions Answered:
+Load data and create DataFrame.
+
+Calculate marketing success rate (No. of people subscribed / total entries).
+
+Calculate marketing failure rate.
+
+Compute maximum, mean, and minimum age of customers.
+
+Evaluate customer quality by checking average and median balance.
+
+Analyze if age affects term deposit subscription.
+
+Analyze if marital status affects subscription.
+
+Analyze combined effect of age and marital status on subscription.
+
+Perform feature engineering on age column.
+
+
