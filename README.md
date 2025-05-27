@@ -1,26 +1,30 @@
-# Banking-Domain-Data-Analytics
-Project Overview
-This project analyzes a Portuguese banking institution’s direct marketing campaign data using Python and data visualization tools. The objective was to determine what factors influence whether a customer subscribes to a term deposit, based on their demographic and campaign response data.
+# Banking Domain - Data Analytics Project
 
-The marketing campaigns were based on phone calls. Often, the same customer was contacted more than once in order to assess if they would subscribe.
+This project analyzes customer data in the **Banking Domain** to generate insights using exploratory data analysis (EDA) and dashboards.
 
-Questions Answered:
-Load data and create DataFrame.
+## 📁 Project Structure
 
-Calculate marketing success rate (No. of people subscribed / total entries).
+- `notebooks/`: Contains the Jupyter notebook used for EDA and insights.
+- `data/`: Raw datasets used in the project.
+- `dashboard/`: Power BI dashboard that visualizes key findings.
+- `images/`: Screenshots of the dashboard for reference.
+- `docs/`: Report explaining methodology and results.
+- `presentation/`: Final presentation file.
 
-Calculate marketing failure rate.
+## 🔍 Key Features
 
-Compute maximum, mean, and minimum age of customers.
+- **Data Cleaning & Handling Missing Values**: Imputed missing values, removed duplicates.
+- **Feature Engineering**: Created new features from existing columns to enhance predictive capability.
+- **Outlier Treatment**: Applied IQR and Z-score techniques.
+- **EDA**: Summary statistics, trends, and anomaly detection.
+- **Data Visualization**: Built interactive Power BI dashboard.
+- **Insights**: Customer segmentation, investment preferences, gender-based analysis, etc.
 
-Evaluate customer quality by checking average and median balance.
+## 🚀 How to Run
 
-Analyze if age affects term deposit subscription.
-
-Analyze if marital status affects subscription.
-
-Analyze combined effect of age and marital status on subscription.
-
-Perform feature engineering on age column.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/banking-data-analytics.git
+   cd banking-data-analytics
 
 
